@@ -1,0 +1,2628 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#"
+     xml:base="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#ASLR-Induced_Effective_Entropy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#ASLR-Induced_Effective_Entropy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Proactive_Defence_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#ASLR-induced_Entropy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#ASLR-induced_Entropy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Proactive_Defence_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Access_Control -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Access_Control">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Preventive"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Access_right_violation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Access_right_violation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Preservation_of_confidentiality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Accuracy_of_reconfiguration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Accuracy_of_reconfiguration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Reconfigurability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Active -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Active">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Defenses"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Adaptability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Adaptability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Resilience_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Adaptive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Adaptive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Defenses"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Adware -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Adware">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Malware"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Agility_Metrics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Agility_Metrics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Trustworthiness_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Amount_of_relevant_information -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Amount_of_relevant_information">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Data_availability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Amounts_of_vulnerabilities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Amounts_of_vulnerabilities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Physical_security"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Application_Attacks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Application_Attacks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attack_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Application_Data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Application_Data">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Raw_data"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attack_Complexity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attack_Complexity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Exploitability_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attack_Consequence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attack_Consequence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attack_Objective -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attack_Objective">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attack_Surface -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attack_Surface">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Interface-Induced_Vulnerabilities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attack_Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attack_Type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attack_Vector -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attack_Vector">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Exploitability_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attack_Vectors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attack_Vectors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attacks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attacks"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attribute_Based_Access_Control -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attribute_Based_Access_Control">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Access_Control"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Authentication -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Authentication">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Access_Control"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Authentication_confidentiality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Authentication_confidentiality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Confidentiality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Authorization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Authorization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Access_Control"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Authorization_Scope -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Authorization_Scope">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Exploitability_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Autonomy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Autonomy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Adaptability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Availability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Availability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Security_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Availability_Impact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Availability_Impact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Impact_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Average_Indirect_Target_Reduction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Average_Indirect_Target_Reduction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Preventive_Defence_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Average_Target_Size -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Average_Target_Size">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Preventive_Defence_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Blocking_Rate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Blocking_Rate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Frequency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Botnet_Efficiency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Botnet_Efficiency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Botnets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Botnet_Robustness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Botnet_Robustness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Botnets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Botnet_Size -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Botnet_Size">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Botnets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Botnets -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Botnets">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Measuring_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Breach_Frequency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Breach_Frequency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Frequency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Breach_Size -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Breach_Size">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Frequency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#CVSS_Base_Metrics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#CVSS_Base_Metrics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Severity_of_Indivudual_Vulnerabilities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#CVSS_Environmental_Metrics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#CVSS_Environmental_Metrics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#CVSS_Base_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#CVSS_Temporal_Metrics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#CVSS_Temporal_Metrics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#CVSS_Base_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Categorical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Categorical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Feature_Sets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Collective_Detection_Strength -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Collective_Detection_Strength">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Reactive_Defence_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Collective_Effectiveness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Collective_Effectiveness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Collective_Detection_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Computational_complexity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Computational_complexity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Service_complexity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Confidence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Confidence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Monitoring"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Confidentiality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Confidentiality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Security_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Confidentiality_Impact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Confidentiality_Impact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Impact_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Consistency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Consistency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Service_reliability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Control-Plan_Reputation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Control-Plan_Reputation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Security_State"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Convenience -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Convenience">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Usefulness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Correctness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Correctness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Service_reliability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Cost -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Cost">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Monitoring"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Cost_Detection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Cost_Detection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Individual_Detection_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Cost_for_Damage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Cost_for_Damage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Cost_Detection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Cost_for_Operational -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Cost_for_Operational">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Cost_Detection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Cost_for_Response -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Cost_for_Response">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Cost_Detection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Cost_of_Incidentsd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Cost_of_Incidentsd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Damage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Coverage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Coverage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Preventive_Defence_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Cryptography -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Cryptography">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Preventive"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Cyber_security -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Cyber_security">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Safety"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Cybersecurity_Posture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Cybersecurity_Posture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Security_State"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#DDoS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#DDoS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attack_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Damage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Damage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Security_Incidents"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Data"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Data_Reliability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Data_Reliability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Reliability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Data_availability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Data_availability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Availability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Data_completeness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Data_completeness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Data_integrity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Data_consistency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Data_consistency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Data_Reliability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Data_correctness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Data_correctness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Data_integrity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Data_freshness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Data_freshness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Data_Reliability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Data_integrity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Data_integrity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Integrity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Data_validity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Data_validity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Data_integrity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Decision_delay -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Decision_delay">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Service_cost"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Defence_cost -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Defence_cost">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Service_cost"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Defenses -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Defenses"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Degree_of_component_diversity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Degree_of_component_diversity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Diversity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Degree_of_risk_in_Trust -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Degree_of_risk_in_Trust">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Physical_security"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Delay_in_Incident_Detection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Delay_in_Incident_Detection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Damage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Denial_of_Service -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Denial_of_Service">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attack_Objective"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Depth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Depth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Topology_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Destruction_of_Resources -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Destruction_of_Resources">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attack_Objective"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Detection_Time -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Detection_Time">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Individual_Detection_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Determenistic_Metrics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Determenistic_Metrics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Severity_of_Collective_Vulnerabilities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Devices -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Devices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Systems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Digital_Signeture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Digital_Signeture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Cryptography"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Discretionary_Access_Control -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Discretionary_Access_Control">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Access_Control"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Diversity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Diversity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Fault-Tolerance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Diversity_of_security_mechanics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Diversity_of_security_mechanics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Diversity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Effective_Base_Metric -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Effective_Base_Metric">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Probabilistic_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Effective_Base_Score -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Effective_Base_Score">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Probabilistic_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Efficiency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Efficiency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Agility_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Effort-to-Security-Failure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Effort-to-Security-Failure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Effort_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Effort_Metrics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Effort_Metrics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Determenistic_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Email -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Email">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attack_Vectors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Encounter_Rate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Encounter_Rate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Frequency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Encryption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Encryption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Cryptography"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Evasion_Resistance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Evasion_Resistance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Preventive_Defence_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Evasion_Techniques -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Evasion_Techniques">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Measuring_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Exercised_Attack-Surface -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Exercised_Attack-Surface">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Interface-Induced_Vulnerabilities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Expertise -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Expertise">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#User_Reliability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Exploit_Code_Maturity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Exploit_Code_Maturity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#CVSS_Temporal_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Exploitability_Metrics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Exploitability_Metrics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#CVSS_Base_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#FInancial_Gain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#FInancial_Gain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attack_Objective"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#False-Negative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#False-Negative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Individual_Detection_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#False-Positive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#False-Positive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Individual_Detection_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Fault-Tolerance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Fault-Tolerance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Resilience_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Feature_Sets -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Feature_Sets">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Representation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Flexibility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Flexibility">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#User&apos;s_satisfaction_level"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Flexibility_of_reconfiguration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Flexibility_of_reconfiguration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Reconfigurability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Flexibility_policy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Flexibility_policy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Flexibility"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Flexible_mechanisms -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Flexible_mechanisms">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Flexibility"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Flexible_prodedures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Flexible_prodedures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Flexibility"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Fractions_of_Compromised_Computers_at_Time_T -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Fractions_of_Compromised_Computers_at_Time_T">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Security_State"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Frequency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Frequency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Security_Incidents"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Future_Exploited_Vulnerability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Future_Exploited_Vulnerability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Temporal_Characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Future_Vulnerability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Future_Vulnerability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Temporal_Characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Hardware_integrity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Hardware_integrity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#System_integrity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Hash -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Hash">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Cryptography"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Historical_Vulnerability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Historical_Vulnerability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Temporal_Characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Historically_Exploited -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Historically_Exploited">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Temporal_Characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Hosts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Hosts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Systems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Human_Readable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Human_Readable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Representation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#IDOC_Curve -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#IDOC_Curve">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Individual_Detection_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#ISP_Badness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#ISP_Badness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Security_State"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Impact_Metrics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Impact_Metrics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#CVSS_Base_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Impact_of__vulnerability_exploration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Impact_of__vulnerability_exploration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Service_Integrity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Impact_of_exploited_vulnerability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Impact_of_exploited_vulnerability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Physical_security"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Incident_Rate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Incident_Rate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Frequency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Increased_FN -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Increased_FN">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Evasion_Techniques"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Increased_FP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Increased_FP">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Evasion_Techniques"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Indirect_MTD_Effectiveness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Indirect_MTD_Effectiveness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Proactive_Defence_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Individual_Detection_Strength -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Individual_Detection_Strength">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Reactive_Defence_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Infection_Rate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Infection_Rate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Malware_Spreading"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#InfoStealer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#InfoStealer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Malware"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Information_ambiguity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Information_ambiguity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Predictability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Information_availability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Information_availability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Predictability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Information_inference_capability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Information_inference_capability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Predictability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Information_vaugeness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Information_vaugeness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Predictability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Integrity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Integrity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Security_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Integrity_Impact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Integrity_Impact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Impact_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Interface-Induced_Vulnerabilities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Interface-Induced_Vulnerabilities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Measuring_System_Vulnerabilities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Intrusion_Detection_Capability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Intrusion_Detection_Capability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Individual_Detection_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Intrusion_response_cost -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Intrusion_response_cost">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Recovery_cost"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Judgement_Capability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Judgement_Capability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#User_Reliability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#K-Zero-Day-Safety -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#K-Zero-Day-Safety">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Effort_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Key_Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Key_Management">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Cryptography"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Learnability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Learnability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Adaptability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Learning_attack_cost -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Learning_attack_cost">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Learning_attack_patterns"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Learning_attack_intent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Learning_attack_intent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Learning_attack_patterns"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Learning_attack_patterns -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Learning_attack_patterns">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Learnability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Learning_attack_tactics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Learning_attack_tactics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Learning_attack_patterns"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Learning_attack_types -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Learning_attack_types">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Learning_attack_patterns"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Learning_defense_cost -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Learning_defense_cost">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Learning_defense_strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Learning_defense_strength -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Learning_defense_strength">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Learnability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Learning_power_of_defence_technology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Learning_power_of_defence_technology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Learning_defense_strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Learning_vulnerabilities_risk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Learning_vulnerabilities_risk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Learnability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Lifetime_of_Zero-Day_Attacks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Lifetime_of_Zero-Day_Attacks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Zero-Day_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Likelyhood_of_Exlooitation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Likelyhood_of_Exlooitation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Probabilistic_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Loss_of_authentication -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Loss_of_authentication">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attack_Consequence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Loss_of_availability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Loss_of_availability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attack_Consequence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Loss_of_confidentiality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Loss_of_confidentiality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attack_Consequence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Loss_of_integrity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Loss_of_integrity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attack_Consequence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Malware -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Malware">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attack_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Malware_Spreading -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Malware_Spreading">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Measuring_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Mandatory_Access_Control -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Mandatory_Access_Control">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Access_Control"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Mean_time_between_failures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Mean_time_between_failures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Recovery_delay"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Mean_time_to_full_recovery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Mean_time_to_full_recovery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Recovery_delay"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Mean_time_to_repair -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Mean_time_to_repair">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Recovery_delay"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Measuring_Attacks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Measuring_Attacks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Security_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Measuring_Defences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Measuring_Defences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Security_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Measuring_Situations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Measuring_Situations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Security_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Measuring_System_Vulnerabilities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Measuring_System_Vulnerabilities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Security_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Message_Authentication -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Message_Authentication">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Cryptography"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Metrics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Metrics"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Mobile_Application_Attacks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Mobile_Application_Attacks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Application_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Modified_Base_Matrics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Modified_Base_Matrics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#CVSS_Environmental_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Monitoring -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Monitoring">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Reactive_Defence_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Monitoring_Coverage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Monitoring_Coverage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Monitoring"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Necessary_Defence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Necessary_Defence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Effort_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Necessity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Necessity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Usefulness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Network_Bandwidth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Network_Bandwidth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Botnets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Network_Data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Network_Data">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Raw_data"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Network_Diversity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Network_Diversity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Overall_Defence_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Network_Maliciousness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Network_Maliciousness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Security_State"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Networks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Networks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Systems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Non_repudiation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Non_repudiation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Confidentiality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Number_of_Zero-day_Attack_Victims -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Number_of_Zero-day_Attack_Victims">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Zero-Day_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Numerical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Numerical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Feature_Sets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Obfuscation_Prevalence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Obfuscation_Prevalence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Evasion_Techniques"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Ordinal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Ordinal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Feature_Sets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Overall_Defence_Strength -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Overall_Defence_Strength">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Measuring_Defences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Packer_Structural_Complexity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Packer_Structural_Complexity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Evasion_Techniques"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Password_Strength -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Password_Strength">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Password_Vulnerabilities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Password_Vulnerabilities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Password_Vulnerabilities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#System_Users_Vulnerability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Penetration_Resistance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Penetration_Resistance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Overall_Defence_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Phishing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Phishing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Social_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Physical_security -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Physical_security">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Safety"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Physical_storage_repair_cost -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Physical_storage_repair_cost">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Recovery_cost"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Predictability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Predictability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Trust_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Preservation_of_confidentiality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Preservation_of_confidentiality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Confidentiality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Preventive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Preventive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Defenses"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Preventive_Defence_Strength -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Preventive_Defence_Strength">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Measuring_Defences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Privacy_violation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Privacy_violation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Preservation_of_confidentiality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Privilege_Required -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Privilege_Required">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Exploitability_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Proactive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Proactive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Defenses"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Proactive_Defence_Strength -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Proactive_Defence_Strength">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Measuring_Defences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Probabilistic_Metrics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Probabilistic_Metrics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Severity_of_Collective_Vulnerabilities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Probability_a_Computer_is_Compromised_at_Time_t -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Probability_a_Computer_is_Compromised_at_Time_t">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Security_State"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Public_Key_Encription -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Public_Key_Encription">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Encryption"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Quickness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Quickness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Timeliness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#ROC_Curve -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#ROC_Curve">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Individual_Detection_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Ransomware -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Ransomware">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Malware"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Raw_data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Raw_data">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Representation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Reaction_Time -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Reaction_Time">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Preventive_Defence_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Reactive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Reactive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Defenses"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Reactive_Defence_Strength -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Reactive_Defence_Strength">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Measuring_Defences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Reconfigurability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Reconfigurability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Adaptability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Reconfiguration_delay -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Reconfiguration_delay">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Reconfigurability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Recoverability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Recoverability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Resilience_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Recovery_Cost -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Recovery_Cost">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attack_Consequence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Recovery_cost -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Recovery_cost">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Recoverability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Recovery_cost_metric -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Recovery_cost_metric">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Service_cost"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Recovery_delay -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Recovery_delay">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Recoverability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Recovery_effectiveness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Recovery_effectiveness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Recoverability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Recovery_extent_from_ststem_delay -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Recovery_extent_from_ststem_delay">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Recovery_effectiveness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Recovery_extent_from_system_failures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Recovery_extent_from_system_failures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Recovery_effectiveness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Redundancy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Redundancy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Monitoring"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Redundancy_of_same_functional_diversity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Redundancy_of_same_functional_diversity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Diversity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Relative_Detection_Strength -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Relative_Detection_Strength">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Reactive_Defence_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Relative_Effectiveness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Relative_Effectiveness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Relative_Detection_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Reliability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Reliability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Trust_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Remediation_Level -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Remediation_Level">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#CVSS_Temporal_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Report_Confidence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Report_Confidence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#CVSS_Temporal_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Representation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Representation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Data"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Resilience_Metrics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Resilience_Metrics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Trustworthiness_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Resource_Gain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Resource_Gain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attack_Objective"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Robustness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Robustness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Fault-Tolerance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Role_Based_Access_Control -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Role_Based_Access_Control">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Access_Control"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Rouge_Network -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Rouge_Network">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Security_State"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Routers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Routers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Systems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#SMS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#SMS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attack_Vectors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#SQL_Injection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#SQL_Injection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Web_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Safety -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Safety">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Trust_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Secure_Multiparty_Computation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Secure_Multiparty_Computation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Cryptography"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Security_Budget -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Security_Budget">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Security_Investments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Security_Incidents -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Security_Incidents">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Measuring_Situations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Security_Investments -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Security_Investments">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Measuring_Situations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Security_Metrics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Security_Metrics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Trustworthiness_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Security_Reports -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Security_Reports">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Human_Readable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Security_Requirement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Security_Requirement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#CVSS_Environmental_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Security_Spending -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Security_Spending">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Security_Investments"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Security_State -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Security_State">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Measuring_Situations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Security_violation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Security_violation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Preservation_of_confidentiality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Service_Failure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Service_Failure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Service_Reliability_in_Trust"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Service_Integrity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Service_Integrity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Integrity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Service_Reliability_in_Trust -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Service_Reliability_in_Trust">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Reliability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Service_Vulnerabilities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Service_Vulnerabilities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Service_Integrity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Service_availability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Service_availability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Timeliness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Service_availability_in_Security -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Service_availability_in_Security">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Availability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Service_complexity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Service_complexity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Efficiency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Service_cost -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Service_cost">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Efficiency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Service_provision_on_time -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Service_provision_on_time">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Service_Reliability_in_Trust"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Service_reliability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Service_reliability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#User&apos;s_satisfaction_level"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Service_response_time_in_Trust -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Service_response_time_in_Trust">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Service_Reliability_in_Trust"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Session_Hijacking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Session_Hijacking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Web_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Severity_of_Collective_Vulnerabilities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Severity_of_Collective_Vulnerabilities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Software_Vulnerabilities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Severity_of_Indivudual_Vulnerabilities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Severity_of_Indivudual_Vulnerabilities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Software_Vulnerabilities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Situation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Situation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Social_Engineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Social_Engineering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attack_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Social_Media -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Social_Media">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attack_Vectors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Software_Vulnerabilities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Software_Vulnerabilities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Measuring_System_Vulnerabilities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Software_hardware_replacement_cost -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Software_hardware_replacement_cost">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Recovery_cost"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Software_integrity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Software_integrity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#System_integrity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Source_credibility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Source_credibility">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Data_Reliability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#SpearPhishing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#SpearPhishing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Social_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Stealing_Credentials -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Stealing_Credentials">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attack_Objective"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Survivality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Survivality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Robustness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Susceptibility_to_Attacks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Susceptibility_to_Attacks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#System_Users_Vulnerability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Susceptibility_to_Malware_Infection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Susceptibility_to_Malware_Infection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Susceptibility_to_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Susceptibility_to_Phishing_Attacks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Susceptibility_to_Phishing_Attacks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Susceptibility_to_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Symmetric_Key_Encription -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Symmetric_Key_Encription">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Encryption"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#System_Data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#System_Data">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Raw_data"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#System_Users_Vulnerability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#System_Users_Vulnerability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Measuring_System_Vulnerabilities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#System_integrity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#System_integrity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Integrity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#System_reliability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#System_reliability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Robustness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Systems -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Systems"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Targeted_Attacks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Targeted_Attacks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Measuring_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Targeted_Thread_Index -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Targeted_Thread_Index">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Targeted_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Temporal_Characteristics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Temporal_Characteristics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Software_Vulnerabilities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Tendency-to-be-Exploited -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Tendency-to-be-Exploited">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Temporal_Characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Time-to-First_Compromise -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Time-to-First_Compromise">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Frequency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Time_Between_Incidents -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Time_Between_Incidents">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Frequency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Timeliness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Timeliness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Agility_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Topology_Metrics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Topology_Metrics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Determenistic_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Trojan_Horse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Trojan_Horse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Malware"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#True-Negative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#True-Negative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Individual_Detection_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#True-Positive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#True-Positive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Individual_Detection_Strength"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Trust_Metrics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Trust_Metrics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Trustworthiness_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Trustworthiness_Metrics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Trustworthiness_Metrics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Data"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Usability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Usability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Agility_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Usefulness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Usefulness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#User&apos;s_satisfaction_level"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#User_Interaction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#User_Interaction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Exploitability_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#User_Reliability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#User_Reliability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Reliability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#User_integrity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#User_integrity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#System_integrity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#User_integrity_in_Trust -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#User_integrity_in_Trust">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#User_Reliability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#User_training_cost -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#User_training_cost">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Recovery_cost"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Virus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Virus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Malware"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Vulnerabilities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Vulnerabilities"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Vulnerability_Lifetime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Vulnerability_Lifetime">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Temporal_Characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Weakest_Adversary -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Weakest_Adversary">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Effort_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Web_Attacks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Web_Attacks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Application_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Web_Downloader -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Web_Downloader">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attack_Vectors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Websites -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Websites">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attack_Vectors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Worm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Worm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Malware"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#XSS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#XSS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Web_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Zero-Day_Attacks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Zero-Day_Attacks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Measuring_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Zero_Knowledge_Proof -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Zero_Knowledge_Proof">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Cryptography"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Existence/Number/Length_of_Attack_Path -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Existence/Number/Length_of_Attack_Path">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Topology_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Intrusion_response_cost(dupl) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Intrusion_response_cost(dupl)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Recovery_cost_metric"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Parameterized/Statistical_Password_Guessability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Parameterized/Statistical_Password_Guessability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Password_Vulnerabilities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Physical_storage_repair_cost(dupl) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Physical_storage_repair_cost(dupl)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Recovery_cost_metric"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Software_hardware_replacement_cost(dupl) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Software_hardware_replacement_cost(dupl)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Recovery_cost_metric"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#User&apos;s_satisfaction_level -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#User&apos;s_satisfaction_level">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Usability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#User_training_cost(dupl) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#User_training_cost(dupl)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Recovery_cost_metric"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
