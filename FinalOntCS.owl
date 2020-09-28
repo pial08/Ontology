@@ -93,6 +93,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Age -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Age">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Risk_Attitudes"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Agility_Metrics -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Agility_Metrics">
@@ -275,6 +283,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Believes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Believes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attack_Vectors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Biases -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Biases">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attack_Vectors"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Blocking_Rate -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Blocking_Rate">
@@ -359,6 +383,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Categorical">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Feature_Sets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Cognitive_Vulnerability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Cognitive_Vulnerability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Vulnerabilities"/>
     </owl:Class>
     
 
@@ -503,6 +535,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Cryptography">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Preventive"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Culture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Culture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Trust_Attitudes"/>
     </owl:Class>
     
 
@@ -1199,6 +1239,30 @@
     
 
 
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Knowledge_Related -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Knowledge_Related">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Cognitive_Vulnerability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Lack_of_Domain_Knowledge -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Lack_of_Domain_Knowledge">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Knowledge_Related"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Lack_of_Experience -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Lack_of_Experience">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Knowledge_Related"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Learnability -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Learnability">
@@ -1291,6 +1355,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Likelyhood_of_Exlooitation">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Probabilistic_Metrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Limited_Cognitive_Resources -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Limited_Cognitive_Resources">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Cognitive_Vulnerability"/>
     </owl:Class>
     
 
@@ -1917,6 +1989,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Risk_Attitudes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Risk_Attitudes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Cognitive_Vulnerability"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Robustness -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Robustness">
@@ -2235,6 +2315,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Stress -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Stress">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Limited_Cognitive_Resources"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Survivality -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Survivality">
@@ -2401,6 +2489,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Trust_Attitudes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Trust_Attitudes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Cognitive_Vulnerability"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Trust_Metrics -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Trust_Metrics">
@@ -2481,6 +2577,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Vigilance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Vigilance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Limited_Cognitive_Resources"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Virus -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Virus">
@@ -2531,6 +2635,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Websites">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Attack_Vectors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Workload -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Workload">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pial/ontologies/2020/8/untitled-ontology-10#Limited_Cognitive_Resources"/>
     </owl:Class>
     
 
